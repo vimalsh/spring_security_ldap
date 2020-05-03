@@ -14,7 +14,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class UserModel {
    
 	@Id
-	@JsonIgnore
 	private Name dn;
 	
 	@Attribute(name = "uid")
@@ -27,7 +26,6 @@ public class UserModel {
 	private String lastName;
 	
 	@Attribute(name = "userPassword")
-	@JsonIgnore
 	private String userPassword;
 	
 	
